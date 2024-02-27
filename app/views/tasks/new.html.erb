@@ -1,0 +1,14 @@
+<div class="container">
+  <h1>New Task</h1>
+  <div id="new-div">
+  <%= form_with model: @task, class: "d-flex flex-column" do |t| %>
+    <%= t.label :title%>
+    <%= t.text_field :title %>
+    <%= t.label :details %>
+    <%= t.text_area :details %>
+    <%= t.submit :class => "btn btn-primary mt-2"%>
+  <% end %>
+  </div>
+  <br>
+  <%= link_to "Back to list", tasks_path %>
+</div>

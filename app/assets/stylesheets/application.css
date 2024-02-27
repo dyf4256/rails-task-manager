@@ -13,3 +13,37 @@
  *= require_tree .
  *= require_self
  */
+
+ #taks-div {
+  padding-bottom: 10px;
+  width: 50%;
+  padding-top: 20px;
+  border-bottom: 1px solid gray;
+ }
+
+ #new-div {
+  width: 50%;
+  padding-bottom: 20px;
+  border-bottom: 1px solid gray;
+ }
+
+ form {
+margin-bottom: 5px;
+/* border-bottom: 1px solid gray; */
+ }
+
+.btn {
+  width: 20%;
+ }
+
+.container {
+  margin-top: 15px;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+i {
+  color: rgb(40, 108, 244);
+}
